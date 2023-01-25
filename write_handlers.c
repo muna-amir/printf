@@ -151,8 +151,7 @@ int write_num(int ind, char buffer[],
  * Return: Number of written chars.
  */
 int write_unsgnd(int is_negative, int ind,
-	char buffer[];
-
+	char buffer[],
 	int flags, int width, int precision, int size)
 {
 	/* The number is stored at the bufer's right and starts at position i */
